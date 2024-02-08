@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", "Courier New", Courier, monospace;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.product-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 800px;
+  height: 500px;
+  background-color: white;
+  margin-top: 120px;
+}
+
+.product-card .left-img-col {
+  width: 50%;
+  display: flex;
+}
+
+.product-card .left-img-col img {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.product-card .right-info-col {
+  width: 50%;
+  padding: 20px;
+}
+
+.product-card .right-info-col h3 {
+  font-weight: 700;
+  font-size: 32px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.product-card .right-info-col h5 {
+  font-weight: 500;
+  font-size: 18px;
+  padding-bottom: 20px;
+  color: lightgrey;
+}
+
+.product-card .right-info-col p {
+  font-size: 14px;
+  padding-right: 50px;
+  padding-left: 20px;
+}
+
+.product-card .right-info-col .available-colors {
+  display: flex;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.product-card .right-info-col .available-colors .black-color-container {
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  background-color: black;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.product-card .right-info-col .available-colors .red-color-container {
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  background-color: red;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.product-card .right-info-col .available-colors .white-color-container {
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  background-color: beige;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.product-card .right-info-col .price {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.product-card .right-info-col .price h4 {
+  font-size: 32px;
+}
+
+.product-card .right-info-col .price .buy-btn {
+  margin-right: 30px;
+  background-color: black;
+  color: white;
+  border-style: none;
+  border-radius: 10px;
+  width: 150px;
+  height: 40px;
+}
