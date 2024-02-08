@@ -20,7 +20,7 @@ body {
   width: 800px;
   height: 500px;
   background-color: white;
-  margin-top: 120px;
+  margin: 120px;
 }
 
 .product-card .left-img-col {
