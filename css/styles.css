@@ -4,7 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Poppins", "Courier New", Courier, monospace;
+  font-family: "Calibri", "Courier New", Courier, monospace;
 }
 
 body {
@@ -55,7 +55,7 @@ body {
 
 .product-card .right-info-col p {
   font-size: 14px;
-  padding-right: 50px;
+  padding-right: 20px;
   padding-left: 20px;
 }
 
